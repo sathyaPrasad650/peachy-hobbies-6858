@@ -65,29 +65,29 @@ export let homeRepairsData = [
     { src: "https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_532/t_high_res_category/categories/home_screen/plumber.jpg", title: "Plumbers", subTitle: "" },
 ]
 
-let footerTopData = [
+export let footerTopData = [
     "About Us", "UC Impact", "Terms & Conditions", "Privacy Policy", "Interests-Based Advertising", "Anti Discrimiation Policy", "Blog", "Reviews", "Near Me", "Careers", "Gift Cards", "Contact Us", "Quick Links"
 ]
 
-let usaFooterMiddleData = [
+export let usaFooterMiddleData = [
     "Austin", "Dollas", "New York City"
 ]
 
-let indFooterMiddleData = [
+export let indFooterMiddleData = [
     "Agra", "Ahmedabad", "Alwar", "Amritsar", "Aurangabad", "Bangalore", "Bhopal", "Bhubaneswar", "Chandigarh Tricity", "Chennai", "Coimbatore", "Cuttack", "Dehradun", "Delhi NCR", "Guntur", "Guwahati", "Gwalior", "Hyderabad", "Indore", "Jabalpur", "Jaipur", "Jamshedpur", "Jodhpur", "Kakinada", "Kanpur", "Karnal", "Kochi", "Kolkata", "Kota", "Lucknow", "Ludhiana", "Madurai", "Meerut", "Mumbai", "Mysore", "Nagpur", "Nashik", "Panipat", "Patna", "Prayagraj", "Pune", "Raipur", "Rajahmundry", "Ranchi", "Rohtak", "Sonipat", "Surat", "Thiruvananthapuram", "Udaipur", "Vadodara", "Varanasi", "Vijayawada", "Visakhapatnam", "Warangal"
 ]
 
-let uarFooterMiddleData = [
+export let uaeFooterMiddleData = [
     "Abu Dhabi", "Dubai", "Sharjah"
 ]
 
-let ausFooterMiddleData = [
+export let ausFooterMiddleData = [
     "Melbourne", "Sharjah"
 ]
 
-let sgpFooterMiddleData = ["Singapore"]
+export let sgpFooterMiddleData = ["Singapore"]
 
-let ksaFooterMiddleData = ["Jeddah", "Riyadh"]
+export let ksaFooterMiddleData = ["Jeddah", "Riyadh"]
 
 
 
