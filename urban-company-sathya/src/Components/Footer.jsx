@@ -8,6 +8,18 @@ import {
   ksaFooterMiddleData,
 } from "../Data/data";
 import styles from "../Styles/Footer.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faCoffee, apple } from "@fortawesome/free-solid-svg-icons";
+import {
+  faFacebookSquare,
+  faInstagram,
+  faInstagramSquare,
+  faLinkedin,
+  faPinterest,
+  faSquareInstagram,
+  faTwitter,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
   return (
@@ -81,8 +93,47 @@ function Footer() {
           ))}
         </ul>
       </div>
+      <div className={styles.footerBottom}>
+        <div>
+          <img
+            className={styles.img}
+            src="https://res.cloudinary.com/urbanclap/image/upload/images/growth/home-screen/1631097450980-d2de38.png"
+            alt="error"
+          />
+        </div>
+        <div>
+          <p style={{ fontSize: "14px" }}>
+            © 2014-22 UrbanClap Technologies India Pvt. Ltd.
+          </p>
+        </div>
+        <div>
+          <FontAwesomeIcon className={styles.icon} icon={faTwitter} />
+          <FontAwesomeIcon className={styles.icon} icon={faFacebookSquare} />
+          <FontAwesomeIcon className={styles.icon} icon={faInstagram} />
+          <FontAwesomeIcon className={styles.icon} icon={faYoutube} />
+          <FontAwesomeIcon className={styles.icon} icon={faLinkedin} />
+          <FontAwesomeIcon className={styles.icon} icon={faPinterest} />
+        </div>
+        <div style={{ display: "flex" }}>
+          <img
+            className={styles.img}
+            src="https://images.urbanclap.com/image/upload/categories/category_v2/category_7f907eb0.png"
+            alt=""
+          />
+          <img
+            className={styles.img}
+            src="https://images.urbanclap.com/image/upload/categories/category_v2/category_7f741d10.png"
+            alt=""
+          />
+        </div>
+      </div>
     </div>
   );
 }
 
 export default Footer;
+
+/*
+
+
+*/
