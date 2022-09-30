@@ -1,0 +1,32 @@
+.container {
+  margin-top: 15px;
+}
+.topContainerWithSubHeading {
+  height: 140px;
+  border: 2px solid red;
+}
+.topContinerWithOutSubHeading {
+  height: 108px;
+  border: 2px solid green;
+}
+.heading {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  margin: 0;
+  color: #212121;
+  padding-top: 25px;
+}
+.subHeading {
+  display: block;
+  color: #757575;
+  margin: 4px 0 0;
+  font-size: 18px;
+}
+.bottomContainer {
+  height: 330px;
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  padding-top: 60px;
+}

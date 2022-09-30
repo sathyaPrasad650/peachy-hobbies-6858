@@ -1,0 +1,30 @@
+.container {
+  width: 293px;
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: center;
+}
+.box {
+  height: 213px;
+  width: 266px;
+  /* border: 2px solid red; */
+}
+.img {
+  width: 266px;
+  height: 149px;
+  border-radius: 4px;
+}
+.title {
+  margin: 18px 0 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #212121;
+  text-align: center;
+}
+.subTitle {
+  line-height: 18px;
+  font-size: 15px;
+  color: #757575;
+  margin: 4px 0 0;
+}
