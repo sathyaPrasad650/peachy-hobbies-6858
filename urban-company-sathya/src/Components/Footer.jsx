@@ -9,14 +9,12 @@ import {
 } from "../Data/data";
 import styles from "../Styles/Footer.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faCoffee, apple } from "@fortawesome/free-solid-svg-icons";
+// import {} from "@fortawesome/free-solid-svg-icons";
 import {
   faFacebookSquare,
   faInstagram,
-  faInstagramSquare,
   faLinkedin,
   faPinterest,
-  faSquareInstagram,
   faTwitter,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";

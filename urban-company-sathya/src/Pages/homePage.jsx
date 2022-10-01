@@ -1,3 +1,4 @@
+import HomePageHeader from "../Components/HomePageHeader";
 import ImgCategoryContainerComponent from "./Components/ImgCategoryContainerComponent";
 import {
   appliancesData,
@@ -11,6 +12,7 @@ import {
 function HomePage() {
   return (
     <div>
+      <HomePageHeader />
       <ImgCategoryContainerComponent
         array={newCategoryLaunchesData}
         heading="New Category Launches"

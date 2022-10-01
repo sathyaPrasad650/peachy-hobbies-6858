@@ -1,0 +1,15 @@
+.container {
+  height: 552px;
+  background-image: url("https://res.cloudinary.com/urbanclap/image/upload/images/growth/home-screen/1615375782838-f890f8.jpeg");
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.navbar {
+  height: 60px;
+}
+.box {
+  height: 100px;
+  padding-top: 300px;
+  border: 2px solid red;
+}
