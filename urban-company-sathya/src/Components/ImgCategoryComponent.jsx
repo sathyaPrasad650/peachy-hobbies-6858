@@ -1,7 +1,7 @@
 import styles from "../Styles/ImgCategoryComponent.module.css";
 
 function ImgCategoryComponent(props) {
-  console.log("props", props);
+  // console.log("props", props);
   const { src, title, subTitle } = props.data;
   return (
     <div className={styles.container}>

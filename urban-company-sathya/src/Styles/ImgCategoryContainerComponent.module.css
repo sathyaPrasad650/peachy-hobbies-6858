@@ -1,13 +1,16 @@
 .container {
   margin-top: 15px;
+  /* border: 2px solid red; */
+  background-color: white;
+  border-radius: 10px;
 }
 .topContainerWithSubHeading {
   height: 140px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 .topContinerWithOutSubHeading {
   height: 108px;
-  border: 2px solid green;
+  /* border: 2px solid green; */
 }
 .heading {
   font-weight: 700;
@@ -27,6 +30,6 @@
   height: 330px;
   display: flex;
   justify-content: center;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   padding-top: 60px;
 }

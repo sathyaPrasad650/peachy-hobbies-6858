@@ -1,15 +1,18 @@
 import AllRoutes from './All Routes/AllRoutes';
-import './App.css';
-// import Footer from './Components/Footer';
-import HomePageHeader from './Components/HomePageHeader';
+import Footer from './Components/Footer';
+import HomePage from './Pages/HomePage';
+import styles from "./Styles/App.module.css"
+
 
 
 function App() {
   return (
-    <div className="App">
+    // <div className="App">
+    <div className={styles.app}>
       <AllRoutes />
-      <HomePageHeader />
-      {/* <Footer /> */}
+      <HomePage />
+      <Footer />
+
     </div>
   );
 }

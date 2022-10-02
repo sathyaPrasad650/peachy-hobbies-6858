@@ -1,5 +1,6 @@
+import React from "react";
 import HomePageHeader from "../Components/HomePageHeader";
-import ImgCategoryContainerComponent from "./Components/ImgCategoryContainerComponent";
+import ImgCategoryContainerComponent from "../Components/ImgCategoryContainerComponent";
 import {
   appliancesData,
   cleaningPestData,
@@ -7,7 +8,7 @@ import {
   newCategoryLaunchesData,
   salonSpaData,
   ucLuxuryExperienceData,
-} from "./Data/data";
+} from "../Data/data";
 
 function HomePage() {
   return (
@@ -43,14 +44,18 @@ function HomePage() {
         heading="Home Repairs"
         subHeading=""
       />
-      {/* <img src="https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_809/t_high_res_template/categories/category_v2/category_a4e46fa0.png" alt="missing pic" /> */}
       <img
-        style={{ width: "100%", marginTop: "15px" }}
+        style={{ width: "100%", marginTop: "15px", borderRadius: "10px" }}
+        src="https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_809/t_high_res_template/categories/category_v2/category_a4e46fa0.png"
+        alt="missing pic"
+      />
+      <img
+        style={{ width: "100%", marginTop: "15px", borderRadius: "10px" }}
         src="https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_809/t_high_res_template/images/growth/home-screen/1624344861242-558286.png"
         alt="missing pic"
       />
       <img
-        style={{ width: "100%", marginTop: "15px" }}
+        style={{ width: "100%", marginTop: "15px", borderRadius: "10px" }}
         src="https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_809/t_high_res_template/categories/category_v2/category_3cffdf20.png"
         alt="missing pic"
       />
