@@ -43,7 +43,6 @@ function LoginDrawer() {
           <DrawerHeader borderBottomWidth="1px">
             Please login to continue
           </DrawerHeader>
-
           <DrawerBody>
             <Stack mt="20px">
               <InputGroup>

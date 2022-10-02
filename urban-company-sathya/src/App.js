@@ -1,6 +1,5 @@
 import AllRoutes from './All Routes/AllRoutes';
-import Footer from './Components/Footer';
-import HomePage from './Pages/HomePage';
+// import HomePage from './Pages/HomePage';
 import styles from "./Styles/App.module.css"
 
 
@@ -10,9 +9,7 @@ function App() {
     // <div className="App">
     <div className={styles.app}>
       <AllRoutes />
-      <HomePage />
-      <Footer />
-
+      {/* <HomePage /> */}
     </div>
   );
 }
